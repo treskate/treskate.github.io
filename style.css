@@ -1,0 +1,66 @@
+body {
+    background-image:url('images/bg.jpg'); background-repeat:repeat; background-color:#000000;
+    color: #fff;
+    font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+}
+
+img {
+   border:1px solid #ffffff;
+}
+
+#wrap {
+    width: 900px;
+    margin: 50px auto;
+    border: none;
+}
+
+#nav {
+    width: 900px;
+   font-size: 32px;
+    text-align: center;
+}
+
+#nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#nav li {
+    display: inline;
+    margin: 0 5px;
+}
+
+#nav li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 9px;
+}
+
+#nav li a:hover {
+    background: #fff;
+    color: #000;
+}
+
+#main {
+    border-top: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+    width: 900px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding: 5px 5;
+    text-align: left;
+}
+
+a:link { color: #FFF;}
+a:visited { color: #FFFFFF;}
+a:hover { color: #CCCCCC; background-color: #333333; text-decoration: none;}
+a:active { color: #333333; }
+
+hr {
+  border: 0;
+  width: 100%;
+  color: #FFF;
+  background-color: #FFF;
+  height: 1px;
+}
